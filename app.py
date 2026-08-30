@@ -4,5 +4,9 @@ def saluta(nome):
 def somma (a, b):
 	return a + b
 
+def moltiplica(a, b):
+	return a * b
+
 print(saluta("Fra"))
 print("Somma:", somma(5, 3))
+print("Moltiplica:", moltiplica(5, 3))
